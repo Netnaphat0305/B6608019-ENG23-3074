@@ -22,7 +22,13 @@ spec:
         volumeMounts:
         - mountPath: /var/lib/grafana
           name: grafanadata
-
+        resources:
+          limits:
+            cpu: "1000m"
+            memory: "1Gi"
+          requests:
+            cpu: "500m"
+            memory: "500Mi"
       volumes:
       - name: grafanadata
         persistentVolumeClaim:
