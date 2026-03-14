@@ -2,4 +2,4 @@
 
 ![Grafana Login](grafana-login.png)
 
-![Grafana Dashboard](grafana-home.png)
+![Grafana Home](grafana-home.png)
